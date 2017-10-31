@@ -1,0 +1,51 @@
+body {
+    font-size: 12px;
+    font-family: 'Microsoft Yahei';
+    background: #f5e5c1 url(../image/bgimg.jpg) 50% top scroll no-repeat;
+    background-size: 100%;
+    color: #272a30;
+}
+.snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000001;
+}
+.nav ul .nav_current a{
+    background: #E15782;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 50px 0;
+} 
+.nav {
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    margin: 0 auto 10px;
+    background: rgba(245,245,245,0.2);
+    position: relative;
+}
+.nav ul {
+    list-style: none;
+    margin:auto;
+    width: 1030px;
+}
+.nav ul li {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.nav ul li a {
+    color: #FFF;
+    cursor: pointer;
+    display: block;
+}
+.nav ul li a:hover {
+    background-color: #E15782;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 50px 0;
+}

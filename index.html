@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+    <script type="text/javascript" src="js/snow.js" ></script>
+    <script>
+        window.addEventListener('load', function(){
+            this.snow = new Snow();
+            // 初始化snow对象并开始下雪动画
+            snow.init().start();
+        });
+    </script>
+</head>
+<body>
+	<!--<figure>
+		<p>欢迎光临江佩的个人博客!</p>
+	</figure>-->
+	<header class="container">
+		<img src="image/log.png" />
+	</header>
+	<div id="container">
+	   <nav class="nav">
+	   		<ul>
+		        <li class="nav_current"><a href="#">首页</a></li>
+		        <li><a href="#">关于我</a></li>
+		        <li><a href="#">心得体会</a></li>
+		        <li><a href="#">案例展示</a></li>
+		        <li><a href="#">碎言碎语</a></li>
+		        <li><a href="#">留言</a></li>
+	    	</ul>
+	   </nav>
+	</div>
+	<div class="snow-container">
+	   <canvas id="canvas"></canvas>
+	</div>
+</body>
+</html>
